@@ -95,7 +95,6 @@ form span {
 }
 
 h1 {
-    padding-top: 50px;
     font-weight: 700;
 }
 
@@ -196,7 +195,7 @@ a {
     .hero-section{
         height: auto;
         background-color: white;
-       
+        padding: 30px 0 0 0;
     }
     .first-div {
         display: none;
@@ -211,8 +210,8 @@ a {
 
     .welcome-text {
         display: block;
+        text-align: center;
         font-size: 35px;
-        padding-left: 10px;
         background: #CF21A1;
         background: linear-gradient(to right, #CF21A1 0%, #24FF48 38%, #350ECF 79%);
         -webkit-background-clip: text;
