@@ -21,7 +21,7 @@
 }
 
 .first-div {
-    height: 650px;
+    height: 550px;
     width: 558px;
     display: flex;
     align-items: center;
@@ -60,7 +60,7 @@
 }
 
 .second-div {
-    height: 650px;
+    height: 550px;
     width: 558px;
     background-color: white;
     display: flex;
@@ -193,23 +193,21 @@ a {
 
 @media(max-width:768px) {
 
-    .hero-section {
+    .hero-section{
         height: auto;
-        padding: 0;
+        background-color: white;
+       
     }
-
     .first-div {
         display: none;
     }
 
-    .second-div {
-        width: 100%;
-        justify-content: flex-start;
+    .second-div{
+        height: auto;
+        width:auto;
+        padding: 0;
     }
 
-    .second-div nav {
-        display: block;
-    }
 
     .welcome-text {
         display: block;
@@ -219,7 +217,6 @@ a {
         background: linear-gradient(to right, #CF21A1 0%, #24FF48 38%, #350ECF 79%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-
 
     }
 }
