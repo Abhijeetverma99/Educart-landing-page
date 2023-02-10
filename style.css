@@ -122,6 +122,8 @@ input {
     outline: none;
     color: rgb(31, 29, 29);
     font-weight: 600;
+    padding: 0 10px ;
+    font-weight: 200;
 }
 
 .check-box {
@@ -209,6 +211,5 @@ a {
         display: block;
         text-align: center;
         font-size: 35px;
-
     }
 }
