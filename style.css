@@ -136,11 +136,7 @@ a {
     text-decoration: none;
     font-size: 14px;
     margin-top: 3px;
-    background: #0A4CCF;
-    background: linear-gradient(to right, #0A4CCF 34%, #CF15C9 82%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-
+    color: black;
 }
 
 .check-box div {
@@ -192,18 +188,19 @@ a {
 
 @media(max-width:768px) {
 
-    .hero-section{
+    .hero-section {
         height: auto;
         background-color: white;
         padding: 30px 0 0 0;
     }
+
     .first-div {
         display: none;
     }
 
-    .second-div{
+    .second-div {
         height: auto;
-        width:auto;
+        width: auto;
         padding: 0;
     }
 
@@ -212,10 +209,6 @@ a {
         display: block;
         text-align: center;
         font-size: 35px;
-        background: #CF21A1;
-        background: linear-gradient(to right, #CF21A1 0%, #24FF48 38%, #350ECF 79%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
 
     }
 }
